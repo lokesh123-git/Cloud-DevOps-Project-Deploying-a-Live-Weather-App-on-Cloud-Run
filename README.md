@@ -6,15 +6,6 @@ Within this repository, you'll discover the essential source code and deployment
 
 This project follows a streamlined DevOps workflow, ensuring a seamless process from development to deployment. The key components involved are GitHub, Google Cloud Build, Docker, Artifact Registry, and Cloud Run.
 
-## Key Highlights
-
-- 🐍 Developed the application using Python.
-- 🌐 Integrated the robust OpenWeather API for precise and current weather information.
-- 📦 Deployed the app on Google Cloud Run as a Container.
-- ☁️ Automated the entire CI/CD pipeline seamlessly with Google Cloud Build and GitHub.
-- ![image](https://github.com/user-attachments/assets/d5aa2d97-6892-4e88-8d6b-220be1462664)
-
-
 ## Tools and Technology
 
 - **Docker:** 🐳
@@ -24,9 +15,25 @@ This project follows a streamlined DevOps workflow, ensuring a seamless process 
 - **Google Cloud Build:** 🛠️
 - **OpenWeather API:** 🌦️
 
-## Resources
+## Workflow Steps:
 
-Feel free to dive in, explore the code, and follow along with the blog for a comprehensive understanding of deploying a live weather app on Google Cloud using DevOps practices!
+1) API Key Creation:
+Obtain an API key from the OpenWeather API to fetch real-time weather data.
 
-Please refer below youtube video to deploy this weather-app on Google Cloud Run.
-https://youtu.be/jyuz0vfrFps
+2)Python Application Development:
+Develop a Python application that interacts with the OpenWeather API to retrieve and process weather data.
+
+3)Local Testing:
+Test the Python application locally to ensure it functions as expected.
+
+4)Container Testing:
+Containerize the application using Docker and perform local testing on the container to validate its behavior.
+
+5)Push to Artifact Registry:
+Push the Docker container image to Google Artifact Registry for secure storage and management.
+
+6)Deploy on Cloud Run:
+Deploy the containerized application on Google Cloud Run, enabling scalable and efficient hosting.
+
+7)Automate CI/CD Process:
+Implement a CI/CD pipeline using Google Cloud Build. The process is automated via build triggers, which monitor the GitHub repository for changes, ensuring continuous integration and deployment.
