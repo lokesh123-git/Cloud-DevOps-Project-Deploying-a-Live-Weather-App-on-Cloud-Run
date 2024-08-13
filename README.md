@@ -16,7 +16,8 @@ This project follows a streamlined DevOps workflow, ensuring a seamless process 
 - **OpenWeather API:** 🌦️
 
 ## Workflow Steps:
-1) API Key Creation:
+
+1)API Key Creation:
 Obtain an API key from the OpenWeather API to fetch real-time weather data.
 
 2)Python Application Development:
